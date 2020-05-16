@@ -19,6 +19,13 @@
 
   }
   
+  .tablestyle{
+
+    height: 45px;
+
+  }
+
+
 .navbar-style {
     box-shadow: 0 5px  10px #d4d3d3;
 }
@@ -27,7 +34,11 @@
     box-shadow: 0 5px  10px #d4d3d3;
 }
 
-
+.text-style2{
+  box-shadow: 0 5px  10px #d4d3d3;
+  height: 40px;
+  padding:  0px 0px;
+}
 
 .logo
 {
