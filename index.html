@@ -13,49 +13,60 @@
 </head>
 <body>
 
-          
-
-            <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top "> 
-                  <button class="navbar-toggler" data-toggle="collapse" data-target="#micon">
-                    <span class="navbar-toggler-icon"></span>                
-                  </button> 
-                  <div class="collapse navbar-collapse" id="micon"> 
-                      <a class ="navbar-brand"><img class="logo"  src="assets/logo_dvalue3.png"></a>
-                      <span class="navbar-text"></span>
-                      <span class="navbar-text"></span>
-                      <span class="navbar-text"></span>
-                      <ul class="navbar-nav ">
-                        <li class="nav-item dropdown">
-                          <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                          </li>
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#micon2 href="#">Plots</a>
-                          
-                                <!--  <span class="caret"></span> 
-                                </a>-->
-                                <div class="dropdown-menu" aria-labelledby="micon2">
-                                            <a class="dropdown-item" href="Resources/max_temp.html">Max Temperature</a> 
-                                            <a class="dropdown-item" href="Resources/humidity.html">Humidity      </a>
-                                            <a class="dropdown-item" href="Resources/Cloudiness.html">Cloudiness     </a>
-                                            <a class="dropdown-item" href="Resources/Wind_speed.html">Wind Speed     </a>
-                                </div>
-                          </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Resources/comparison_1.html">Comparison</a>
-                          </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="assets/data_table.html">Data</a>
-                          </li>    
-                      </ul>
-                  </div>    
-            </nav>
 
 
+ 
+                        
+
+    <nav class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top    padding: 0px 0px;"> 
+     
+        
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#micon">
+                <span class="navbar-toggler-icon"></span>                
+              </button> 
+              <div class="collapse navbar-collapse" id="micon"> 
+
+                <div class="d-block p-2 bg-primary text-white ">LATITUDE</div> 
+
+                <span class="navbar-text"></span>
+                <span class="navbar-text"></span>
+                <span class="navbar-text"></span>
+                <ul class="navbar-nav ">
+                  <li class="nav-item dropdown">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#micon2 href="#">Plots</a>
+                    
+                          <div class="dropdown-menu" aria-labelledby="micon2">
+                                      <a class="dropdown-item" href="Resources/max_temp.html">Max Temperature</a> 
+                                      <a class="dropdown-item" href="Resources/humidity.html">Humidity      </a>
+                                      <a class="dropdown-item" href="Resources/Cloudiness.html">Cloudiness     </a>
+                                      <a class="dropdown-item" href="Resources/Wind_speed.html">Wind Speed     </a>
+                          </div>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Resources/comparison_1.html">Comparison</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="assets/data_table.html">Data</a>
+                    </li>    
+                </ul>
+            </div> 
+
+             <a class ="navbar-brand"><img class="logo"  src="assets/logo_dvalue3.png"></a>
+     
+</nav>
+
+
+
+
+           
+              
 
            <div class= "jumbotron jumbotron-fluid" style="margin-bottom: 0px;">
-            
-              <div class="d-block p-2 bg-primary text-white ">LATITUDE</div>
-              <p> </p>
+            <p> </p>
+             
               <div class = "container">
                 
                 <div class="row">
@@ -68,13 +79,22 @@
                             <header> <h2>Summary: Latitude vs. X</h2> 
                            </header></div>            
                             <img  src="assets/Fig1.png"    height="350" width="350" alt="  " class="img-fluid float-left">
-                             <p> Humidity  , ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veniam deserunt sed fugit, voluptatum cum nesciunt. 
-                                 Deleniti  every bodru has to update this page because we need to review the new process and implement the new strategy\
-                                 that lead us to a new era in our company. Please do not hesitate to as you local manager or leader voluptate esse fugit
-                                  tempora corporis placeat magni molestias qui architecto, eaque veniam magnam? adipisicing elit. Exercitationem veniam deserunt sed fugit, voluptatum cum nesciunt. 
-                                  Deleniti  every bodru has to update this page because we need to review the new process and implement the new strategy\
-                                  that lead us to a new era in our company. Please do not hesitate to as you local manager or leader voluptate esse fugit
-                                   tempora corporis placeat magni molestias qui architecto, eaque veniam mag</p>                    
+                             <p> 
+                              How the climate (weather conditions) gets change when we get close to the Ecuador latitude?.
+                              How Temperature, Humidity, Cloudiness and Wind Speed conditions change when the latitude change?.
+                              Can we stablish some trends to forecast Climate Changes for the Future?.
+                              Can we stablish some strong relationships between those factors?.
+
+                              Those are the few questions that we expect to answer by executing this data weather analysis. 
+                              In fact, this is the purpose of this project.The data analysis was performed based on a set of
+                              500 cities (chosen randomly) around the globe, We got the Measures of Central Tendency and each 
+                              Factor was plotted. In addition to that we plotted some relationships between these factors to 
+                              understand better its own relationships between them (example Temperature vs. Cloudiness).
+                              At the end of the study we state some conclusions about these relationships and also, we can 
+                              perform some weather predictions based on this data analysis. The source data was including in a
+                               properly tab call Data. Further we will perform some additional studies to complement this Data Analysis.
+                              
+                             </p>                    
                         </div> 
                     </div>
                     <div class="col-md-6"> 
@@ -95,7 +115,5 @@
             </div>
 
       
-
-
 </body>
 </html>
